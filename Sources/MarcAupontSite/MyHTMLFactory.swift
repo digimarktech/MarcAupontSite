@@ -43,7 +43,6 @@ struct MyHTMLFactory<Site: Website>: HTMLFactory {
                     H1(section.title)
                     ItemList(items: section.items, site: context.site)
                 }
-                SiteFooter()
             }
         )
     }
