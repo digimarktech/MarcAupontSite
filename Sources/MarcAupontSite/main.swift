@@ -29,5 +29,5 @@ extension Theme {
     }
 }
 
-// This will generate your website using the built-in Foundation theme:
+// This will generate your website using the custom myTheme theme:
 try MarcAupontSite().publish(withTheme: .myTheme)
